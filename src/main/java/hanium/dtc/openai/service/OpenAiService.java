@@ -1,18 +1,18 @@
 package hanium.dtc.openai.service;
 
+import hanium.dtc.domain.travel.repository.*;
 import hanium.dtc.exception.CommonException;
 import hanium.dtc.exception.ErrorCode;
 import hanium.dtc.openai.dto.response.*;
 import hanium.dtc.openai.prompt.*;
 import hanium.dtc.openai.dto.request.OpenAiRequest;
-import hanium.dtc.travel.domain.RecordDetail;
-import hanium.dtc.travel.domain.TemporaryRecommend;
-import hanium.dtc.travel.domain.TemporaryTravel;
-import hanium.dtc.travel.domain.TravelRecord;
-import hanium.dtc.travel.repository.*;
-import hanium.dtc.travel.service.TemporaryTravelService;
-import hanium.dtc.user.domain.User;
-import hanium.dtc.user.repository.UserRepository;
+import hanium.dtc.domain.travel.domain.RecordDetail;
+import hanium.dtc.domain.travel.domain.TemporaryRecommend;
+import hanium.dtc.domain.travel.domain.TemporaryTravel;
+import hanium.dtc.domain.travel.domain.TravelRecord;
+import hanium.dtc.domain.travel.service.TemporaryTravelService;
+import hanium.dtc.domain.user.domain.User;
+import hanium.dtc.domain.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
