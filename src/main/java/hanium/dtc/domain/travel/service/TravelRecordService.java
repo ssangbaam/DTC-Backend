@@ -10,7 +10,6 @@ import hanium.dtc.exception.ErrorCode;
 import hanium.dtc.domain.travel.domain.RecordDetail;
 import hanium.dtc.domain.travel.dto.request.TravelRecordDetailRequest;
 import hanium.dtc.domain.travel.dto.request.TravelTitleRequest;
-import hanium.dtc.travel.dto.response.*;
 import hanium.dtc.domain.travel.repository.RecordDetailRepository;
 import hanium.dtc.domain.user.domain.User;
 import hanium.dtc.domain.user.repository.UserRepository;
